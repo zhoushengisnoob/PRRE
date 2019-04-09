@@ -1,6 +1,6 @@
-# PRRE
+#PRRE
 
-This is a python implementation of the PRRE algorithm, which considers the partial correlation between node attributes and network topology.
+This is a python implementation of my CIKM 2018 paper "PRRE: Personalized Relation Ranking Embedding for Attributed Networks", which considers the partial correlation between node attributes and network topology.
 
 **This is the original version of PRRE, the advanced version will be released later**
 
@@ -43,5 +43,12 @@ python prre.py
 ```
 For data visualization task, Embedding Projector is recommended to deal with the embedding result. 
 
-### TODO
-The parallel and distributed version of PRRE will be released later.
+### Cite
+@inproceedings{zhou2018prre,
+  title={PRRE: Personalized Relation Ranking Embedding for Attributed Networks},
+  author={Zhou, Sheng and Yang, Hongxia and Wang, Xin and Bu, Jiajun and Ester, Martin and Yu, Pinggang and Zhang, Jianwei and Wang, Can},
+  booktitle={Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
+  pages={823--832},
+  year={2018},
+  organization={ACM}
+}
